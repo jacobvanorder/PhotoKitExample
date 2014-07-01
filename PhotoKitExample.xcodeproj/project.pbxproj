@@ -12,6 +12,7 @@
 		76B6D6231962074B008A1ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B6D6211962074B008A1ACA /* Main.storyboard */; };
 		76B6D6251962074B008A1ACA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B6D6241962074B008A1ACA /* Images.xcassets */; };
 		76B6D6311962074B008A1ACA /* PhotoKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6D6301962074B008A1ACA /* PhotoKitExampleTests.swift */; };
+		76B6D63D19620C21008A1ACA /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6D63C19620C21008A1ACA /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		76B6D62A1962074B008A1ACA /* PhotoKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B6D62F1962074B008A1ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76B6D6301962074B008A1ACA /* PhotoKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoKitExampleTests.swift; sourceTree = "<group>"; };
+		76B6D63C19620C21008A1ACA /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				76B6D61D1962074B008A1ACA /* AppDelegate.swift */,
 				76B6D61F1962074B008A1ACA /* ViewController.swift */,
+				76B6D63C19620C21008A1ACA /* PhotoCollectionViewCell.swift */,
 				76B6D6211962074B008A1ACA /* Main.storyboard */,
 				76B6D6241962074B008A1ACA /* Images.xcassets */,
 				76B6D61B1962074B008A1ACA /* Supporting Files */,
@@ -210,6 +213,7 @@
 			files = (
 				76B6D6201962074B008A1ACA /* ViewController.swift in Sources */,
 				76B6D61E1962074B008A1ACA /* AppDelegate.swift in Sources */,
+				76B6D63D19620C21008A1ACA /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
